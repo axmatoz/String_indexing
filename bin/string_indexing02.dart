@@ -7,5 +7,11 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String str = s[1];
+ 
+  return str;
+}
+
+void main() {
+  print(func("ozodbek"));
 }

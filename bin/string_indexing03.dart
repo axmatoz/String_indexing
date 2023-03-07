@@ -1,3 +1,4 @@
+
 String func(String s) {
   """
     The string variable s is given. return the last character.
@@ -7,5 +8,11 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String str = s[0]+s[1]+s[3];
+  return str;
+}
+
+void main(){
+
+  print(func('ozodbek'));
 }

@@ -7,6 +7,10 @@ String func(String s) {
         str: answer
     """;
   //your code here
+  String str = s[0];
+  return str;
+}
 
-  return ' ';
+void main() {
+  print(func('ozodbek'));
 }
